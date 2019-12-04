@@ -6,7 +6,7 @@
 /*
 int sum(int from, int to){
     // 등차수열의 합 공식 이용
-    return (to-from+1)*(from+to)/2;
+    return (to-from+1)*(to+from)/2;
 }
 */
 
