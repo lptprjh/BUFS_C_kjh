@@ -1,0 +1,1 @@
+main(){int N,a,b,c,Q=-1;scanf("%d",&N);for(a=1;a<=9&&Q==-1;a++)for(b=a;b<=9&&Q==-1;b++)for(c=b;c<=9&&Q==-1;c++)if(a*b*c==N)Q=(a-1?a:0)*100+(a-1!=0||b-1?b:0)*10+c;printf("%d\n",Q);}
